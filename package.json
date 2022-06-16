@@ -4,7 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "deploy": "yarn asb && near deploy --accountId=dev.litmus.testnet --wasmFile=build/release/near-marketplace-contract.wasm"
+    "test": "yarn asp -f unit.spec",
+    "build": "asb --target debug",
+    "build:release": "asb",
+    "asp": "asp --verbose --nologo",
+    "deploy": "yarn asb && near deploy --accountId=crossword.wanderi55.testnet --wasmFile=build/release/near-marketplace-contract.wasm"
   },
   "devDependencies": {
     "near-sdk-as": "^3.2.3"
