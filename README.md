@@ -22,7 +22,7 @@ The Oiriginal project is from litmus-Zhang
 
 For the project run the following via near-cli:
 
-yarn - create dependencies
+yarn (to instal missing dependencies in the project for the build process)
 
 yarn run build
 
