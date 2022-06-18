@@ -22,9 +22,11 @@ The Oiriginal project is from litmus-Zhang
 
 For the project run the following via near-cli:
 
-yarn (to instal missing dependencies in the project for the build process)
+npm install -- to deploy the node_modules and dependencies for near-sdk.as
 
-yarn run build
+yarn install(to instal missing dependencies in the project for the build process)
+
+yarn run build(for windows OS)
 
 then deploy contract via near-cli command 
 
